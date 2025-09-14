@@ -188,7 +188,7 @@ async function submitUserMessage(content: string) {
 
   try {
     const groq = createOpenAI({
-      baseURL: 'https://api.groq.com/openai/v1',
+      baseURL: 'https://api.spdt.work/v1',
       apiKey: GROQ_API_KEY_ENV
     })
 
